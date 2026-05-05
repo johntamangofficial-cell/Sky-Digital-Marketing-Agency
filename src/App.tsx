@@ -564,9 +564,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/5 pt-12 text-center text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} Sky Digital. All Rights Reserved. Powered by Sky Digital Agency.</p>
-        </div>
+
       </div>
     </footer>
   );
