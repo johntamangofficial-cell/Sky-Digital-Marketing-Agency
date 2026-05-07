@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Sky Digital Marketing</title>
+    <script>
+      window.onerror = function(msg, url, lineNo, columnNo, error) {
+        console.error('GLOBAL ERROR:', msg, url, lineNo, columnNo, error);
+        return false;
+      };
+      console.log('Fetch status:', typeof window.fetch, Object.getOwnPropertyDescriptor(window, 'fetch'));
+    </script>
   </head>
   <body>
     <div id="root"></div>
